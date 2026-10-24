@@ -3,6 +3,8 @@
 // The asynchronous read makes the FIFO first-word-fall-through: rdata already shows the
 // oldest word whenever rempty is low, and rinc pops it. Maps to distributed RAM on FPGAs.
 
+`timescale 1ns/1ps
+
 module fifo_mem #(
     parameter DATA_WIDTH = 8,
     parameter ADDR_WIDTH = 4

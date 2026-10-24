@@ -5,6 +5,8 @@
 // (one bit changes at a time). ASYNC_REG keeps the two flops close together in the FPGA
 // and tells the tools they form a synchronizer.
 
+`timescale 1ns/1ps
+
 module sync_2ff #(
     parameter WIDTH = 1
 ) (

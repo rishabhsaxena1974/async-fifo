@@ -2,6 +2,8 @@
 //
 // Empty when the next read pointer equals the synchronized write pointer.
 
+`timescale 1ns/1ps
+
 module rptr_empty #(
     parameter ADDR_WIDTH = 4
 ) (

@@ -3,4 +3,5 @@ sim/*.log
 sim/*.jou
 sim/*.pb
 sim/*.wdb
+sim/dfx_runtime.txt
 *.vcd

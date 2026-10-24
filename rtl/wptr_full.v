@@ -3,6 +3,8 @@
 // Full when the next write pointer has caught up with the read pointer one lap behind.
 // In Gray code "one lap behind" means the two MSBs are inverted and the rest are equal.
 
+`timescale 1ns/1ps
+
 module wptr_full #(
     parameter ADDR_WIDTH = 4
 ) (

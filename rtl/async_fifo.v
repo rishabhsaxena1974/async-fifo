@@ -9,6 +9,8 @@
 // high (and rempty may stay high) a little longer than necessary, but never too short.
 // That means no overflow and no underflow. Requires ADDR_WIDTH >= 2.
 
+`timescale 1ns/1ps
+
 module async_fifo #(
     parameter DATA_WIDTH = 8,
     parameter ADDR_WIDTH = 4                  // depth = 2**ADDR_WIDTH
